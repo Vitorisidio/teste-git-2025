@@ -32,7 +32,7 @@ align-items: center;
 }
 
 .circulo div{
-    width: 100vw;
+    width: 100px;
     height: 200px;
     background-color: yellow;
     border-radius: 50%;
