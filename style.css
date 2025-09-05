@@ -3,16 +3,38 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+
 }
 
 .quadrado{
     width: 100vw;
     height: 200px;
     background-color: lightpink;
+    display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .circulo{
      width: 100vw;
     height: 200px;
     background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quadrado div{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+
+}
+
+.circulo div{
+    width: 100vw;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+
 }
